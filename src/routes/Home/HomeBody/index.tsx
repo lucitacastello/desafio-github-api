@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './styles.css';
+import Button from '../../../components/Button/button';
 
 export default function HomeBody() {
   return (
@@ -10,7 +11,8 @@ export default function HomeBody() {
             </div>
             <div>
               <Link to='/gitsearch'>              
-                <button className='home-container-start-button'>Começar</button>
+                {/* <button className='home-container-start-button'>Começar</button> */}
+                <Button text='Começar' />
               </Link>
             </div>
         </div>

@@ -16,8 +16,6 @@ function App() {
           <Route path="home" element={<HomeBody />} />   
           <Route path='/gitsearch' element={<GitSearch />}/>     
         </Route>
-
-
       </Routes>
     </BrowserRouter>
   )

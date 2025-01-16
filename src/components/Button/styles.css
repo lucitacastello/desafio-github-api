@@ -1,0 +1,8 @@
+.container-start-button{
+    margin-top: 27px;
+    height: 40px;
+    width: 101px;
+    background-color: var(--color-bg-button);
+    color: var(--color-font-button);
+    font-size: 16px;
+}

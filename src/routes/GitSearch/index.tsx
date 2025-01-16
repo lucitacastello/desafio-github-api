@@ -3,7 +3,9 @@ import './styles.css';
 export default function GitSearch() {
   return (
     <div>
-      <h1>Git Search</h1>
+      <div>
+        <h1>Encontre um perfil Github</h1>
+      </div>
     </div>
   )
 }
