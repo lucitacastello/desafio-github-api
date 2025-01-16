@@ -3,7 +3,8 @@
 :root {
   --color-bg-primary: #ffffff; 
   --color-bg-secundary: #c7c7c7;
-  --color-br-tertiary: #F5F5F5;
+  --color-bg-tertiary: #F5F5F5;
+  --color-bg-button:#1890FF;
 
   --color-card-bg-primary: #E6F7FF; 
   --color-card-bg-secundary: #F5F5F5;
@@ -11,12 +12,15 @@
 
   --color-font-primary:#000;  
   --color-font-secundary:#7E7E7E;
+  --color-font-tertiary: #1890FF;
+  --color-font-header:#fff;
+  --color-font-button:#fff;
 
   --color-font-card-primary: #262626;
   --color-font-card-secundary: #737373;  
 
   --color-font-text: #5C5858;
-  --color-font-tertiary: #1890FF;
+  
 
   --color-font-placeholder: #BFBFBF;
 

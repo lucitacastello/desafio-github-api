@@ -1,0 +1,25 @@
+.home-container {
+  padding-left: 41px;
+  padding-top: 27px;
+}
+
+.home-container-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--color-font-primary);
+}
+
+.home-container-text p {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-font-secundary);
+}
+
+.home-container-start-button {
+  margin-top: 27px;
+  height: 40px;
+  width: 101px;
+  background-color: var(--color-bg-button);
+  color: var(--color-font-button);
+  font-size: 16px;
+}

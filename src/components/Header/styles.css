@@ -1,0 +1,21 @@
+header {
+    background-color: var(--color-font-tertiary);
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.container-link{
+    max-width: 1430px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-left: 41px;
+}
+
+header h4{
+    font-size: 24px;
+    color: var(--color-font-header);
+    font-weight: 500;
+}
