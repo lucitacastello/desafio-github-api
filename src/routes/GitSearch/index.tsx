@@ -6,7 +6,7 @@ import Button from '../../components/Button/button';
 import axios from 'axios';
 import ResultCard from '../../components/ResultCard';
 import { Outlet, useNavigate } from 'react-router-dom';
-import { BASE_URL } from '../utils/system';
+import { BASE_URL } from '../../utils/system';
 
 type FormData = {
   inputUser: string;
