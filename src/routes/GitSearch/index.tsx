@@ -28,7 +28,6 @@ export default function GitSearch() {
 
   const navigate = useNavigate();
 
-
   const [gitUser, setGitUser] = useState<GitUser>();
 
   function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
