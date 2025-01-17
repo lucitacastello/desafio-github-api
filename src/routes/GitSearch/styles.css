@@ -1,0 +1,98 @@
+.git-search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+    background-color: var(--color-bg-primary);
+  }
+
+  .container-search-container {
+    padding: 54px;
+    background-color: var(--color-card-bg-primary);
+    border-radius: 16px;
+    height: 270px;
+  }
+  
+  .git-search-card-container h1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: var(--color-font-primary);
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .search-input {
+    background-color: var( --color-bg-primary);
+    border: 1px solid var(--color-border-container);
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    height: 40px;
+    width: 240px;
+    margin-bottom: 25px;
+    color: var(--color-font-text);
+  }
+  
+  .search-input::placeholder {
+    color: var(--color-font-placeholder);
+  }
+  
+  .search-button {
+    height: 40px;
+    width: 160px;
+    margin-bottom: 35px;
+    color: var(--color-font-button);
+  }
+  
+  .container-response {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: var( --color-card-bg-secundary);
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-left: 0;
+  }
+  
+  .container-response-img img {
+    padding: 30px;
+    margin-top: 20px;
+    width: 305px;
+    height: 305px;
+  }
+  .container-response-data {
+    margin-top: 50px;
+    width: 902px;
+    padding: 10px;
+    border: 1px solid var(--color-border-container); 
+    border-radius: 8px;
+    background: var(--color-bg-primary);
+    height: 247px;
+
+  }
+  .container-response-data h4 {
+    padding: 5px;
+    margin-top: 0;
+    color: var(--color-font-tertiary);
+  }
+
+  .container-response-error {
+    
+   text-align: left;
+    margin-top: 0;
+    /* width: 1500px; */
+    
+    padding: 10px;
+    /* border: 1px solid var(--color-border-container);  */
+    /* border-radius: 8px; */
+    background: var(--color-bg-primary);
+    /* height: 247px; */
+  }
+
+
+  
